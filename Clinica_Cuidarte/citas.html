@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Citas</title>
+    <link rel="stylesheet" href="css/citas.css">
+    <link rel="shortcut icon" href="images/Logo_1.jpg" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <div class="titulo">
+                <h1>CENTRO MEDICO CUIDARTE!</h1>
+            </div> 
+            <div class="logo">
+                <img src="images/Logo_1.jpg" alt="logo principal">
+            </div>
+           
+        <nav>
+            <a href="index.html">Quienes Somos ?</a>
+            <a href="#">Agendar Cita</a>
+            <a href="sedes.html">Nuestras sedes</a>
+            <a href="tratamientos.html">Tratamientos y Costos</a>
+        </nav>
+        </div>
+    </header>
+    <main>
+        <div class="main">
+            <aside class="a-left">
+        <h2>Desea agendar una cita ?</h2>
+        <br>
+        <form class="formulario_citas">
+            <div class="formulario_grupo">
+                <label for="fullName">Nombre Completo:</label>
+                <input type="text" id="fullName" placeholder="Escriba su nombre y Apellidos" name="fullName" required>
+            </div>
+            
+            <div class="formulario_grupo">
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" placeholder="Escriba su E-mail" name="email" required>
+            </div>
+            
+            <div class="formulario_grupo">
+                <label for="phone">Número de Teléfono:</label>
+                <input type="tel" id="phone" placeholder="Escriba su número telefonico" name="phone" required>
+            </div>
+            
+            <div class="formulario_grupo">
+                <label for="date">Fecha de la Cita:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            
+            <div class="formulario_grupo">
+                <label for="time">Hora de la Cita:</label>
+                <input type="time" id="time" name="time" required>
+            </div>
+            
+            <div class="formulario_grupo">
+                <label for="treatment">Cual es el tratamiento de su interes:</label>
+                <select id="treatment" name="treatment">
+                    <option value="consulta">Consulta General</option>
+                    <option value="estetica">Tratamiento Estético</option>
+                    <option value="rejuvenecimiento">Rejuvenecimiento Facial</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <br>
+            <button type="submit">Agendar Cita</button>
+        </form>
+            </aside>
+            <br>
+            <aside class="a-rigth">
+                <img src="images/9.jpg" alt="reunion de doctores">
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados</p>
+        <p><a href="#">Tratamiento de datos</a></p>
+        <div class="redes">
+            <a href="#" target="_blank"><img src="images/facebook.png" alt="flaticon"></a>
+            <a href="#" target="_blank"><img src="images/instagram.png" alt="flaticon"></a>
+            <a href="#" target="_blank"><img src="images/whatsapp.png" alt="flaticon"></a>
+        </div>
+    </footer>
+</body>
+</html>
